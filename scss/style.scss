@@ -63,4 +63,22 @@
     margin-bottom: auto;
   }
 }
+.about {
+  padding: 189px 0 199px;
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 120px;
+  }
+  &__inner-text {
+    width: 480px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: $bg;
+  }
+}
 @import "media";
